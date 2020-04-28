@@ -7,4 +7,17 @@
 //
 
 import Foundation
- 
+
+struct Directors: Decodable {
+  var directors: [Director]
+}
+
+struct Director: Decodable {
+  
+  var image: String
+  var name: String
+  var bio: String
+  var source: String
+  var films: [Film]
+}
+
