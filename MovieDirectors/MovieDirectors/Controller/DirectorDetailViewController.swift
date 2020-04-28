@@ -15,6 +15,7 @@ class DirectorDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+      navigationItem.title = selectedDirector.name
     }
   
 }
